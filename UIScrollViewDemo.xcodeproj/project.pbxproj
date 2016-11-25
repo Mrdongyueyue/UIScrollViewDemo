@@ -26,6 +26,7 @@
 		3C9383111DE8079E00C4B0EA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9383031DE8079E00C4B0EA /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		3C9383121DE8079E00C4B0EA /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9383051DE8079E00C4B0EA /* View+MASAdditions.m */; };
 		3C9383131DE8079E00C4B0EA /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9383081DE8079E00C4B0EA /* ViewController+MASAdditions.m */; };
+		3C9383161DE8187000C4B0EA /* MasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9383151DE8187000C4B0EA /* MasViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,8 @@
 		3C9383061DE8079E00C4B0EA /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		3C9383071DE8079E00C4B0EA /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		3C9383081DE8079E00C4B0EA /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		3C9383141DE8187000C4B0EA /* MasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasViewController.h; sourceTree = "<group>"; };
+		3C9383151DE8187000C4B0EA /* MasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,8 @@
 				3C9382BF1DE8078600C4B0EA /* AppDelegate.m */,
 				3C9382C11DE8078600C4B0EA /* ViewController.h */,
 				3C9382C21DE8078600C4B0EA /* ViewController.m */,
+				3C9383141DE8187000C4B0EA /* MasViewController.h */,
+				3C9383151DE8187000C4B0EA /* MasViewController.m */,
 				3C9382C41DE8078600C4B0EA /* Main.storyboard */,
 				3C9382C71DE8078600C4B0EA /* Assets.xcassets */,
 				3C9382C91DE8078600C4B0EA /* LaunchScreen.storyboard */,
@@ -349,6 +354,7 @@
 				3C93830F1DE8079E00C4B0EA /* MASViewConstraint.m in Sources */,
 				3C93830A1DE8079E00C4B0EA /* MASCompositeConstraint.m in Sources */,
 				3C9383101DE8079E00C4B0EA /* NSArray+MASAdditions.m in Sources */,
+				3C9383161DE8187000C4B0EA /* MasViewController.m in Sources */,
 				3C9382C31DE8078600C4B0EA /* ViewController.m in Sources */,
 				3C9382C01DE8078600C4B0EA /* AppDelegate.m in Sources */,
 				3C93830D1DE8079E00C4B0EA /* MASLayoutConstraint.m in Sources */,

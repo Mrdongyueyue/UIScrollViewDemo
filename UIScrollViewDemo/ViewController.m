@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MasViewController.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
@@ -33,6 +34,10 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     NSLog(@"%@", _scrollView);
+}
+- (IBAction)masonry:(id)sender {
+    MasViewController *vc = [[MasViewController alloc]init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 

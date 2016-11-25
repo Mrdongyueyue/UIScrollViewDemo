@@ -124,7 +124,6 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    [self.view layoutIfNeeded];
     NSLog(@"%@", _scrollView);
 }
 
